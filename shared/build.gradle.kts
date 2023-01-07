@@ -1,6 +1,7 @@
 plugins {
     kotlin("multiplatform")
     id("com.android.library")
+    kotlin("plugin.serialization") version "1.6.10"
 }
 
 kotlin {
@@ -17,7 +18,11 @@ kotlin {
     }
 
     sourceSets {
-        val commonMain by getting
+        val commonMain by getting {
+            dependencies {
+                implementation("dev.gitlive:firebase-firestore:${Versions.Shared.firebaseVersion}")
+            }
+        }
         val commonTest by getting {
             dependencies {
                 implementation(kotlin("test"))
@@ -48,9 +53,9 @@ kotlin {
 
 android {
     namespace = "com.thelazybattley.nolimetangerereviewer"
-    compileSdk = 32
+    compileSdk = 33
     defaultConfig {
         minSdk = 23
-        targetSdk = 32
+        targetSdk = 33
     }
 }
