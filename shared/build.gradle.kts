@@ -47,7 +47,7 @@ kotlin {
 }
 
 android {
-    namespace = "com.example.nolimetangerereviewer"
+    namespace = "com.thelazybattley.nolimetangerereviewer"
     compileSdk = 32
     defaultConfig {
         minSdk = 23

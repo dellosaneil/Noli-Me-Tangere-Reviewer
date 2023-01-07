@@ -1,4 +1,4 @@
-package com.example.nolimetangerereviewer.android
+package com.thelazybattley.nolimetangerereviewer.android
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.shape.RoundedCornerShape

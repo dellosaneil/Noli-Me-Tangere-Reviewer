@@ -4,10 +4,10 @@ plugins {
 }
 
 android {
-    namespace = "com.example.nolimetangerereviewer.android"
+    namespace = "com.thelazybattley.nolimetangerereviewer.android"
     compileSdk = 32
     defaultConfig {
-        applicationId = "com.example.nolimetangerereviewer.android"
+        applicationId = "com.thelazybattley.nolimetangerereviewer.android"
         minSdk = 23
         targetSdk = 32
         versionCode = 1

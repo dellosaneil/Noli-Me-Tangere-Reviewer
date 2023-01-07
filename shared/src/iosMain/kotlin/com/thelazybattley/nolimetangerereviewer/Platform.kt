@@ -1,4 +1,4 @@
-package com.example.nolimetangerereviewer
+package com.thelazybattley.nolimetangerereviewer
 
 import platform.UIKit.UIDevice
 
