@@ -1,4 +1,4 @@
-package com.example.nolimetangerereviewer
+package com.thelazybattley.nolimetangerereviewer
 
 class Greeting {
     private val platform: Platform = getPlatform()
